@@ -2,7 +2,7 @@
 {% block content %}
 <main class="page projects-page">
     <section class="portfolio-block projects-cards">
-        <div class="container">
+        <div style="align-item:center;justify-content:center;" class="container">
 
             <div class="heading">
                 <h2>TEACHER</h2>
@@ -10,9 +10,9 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0">
-                        <a href="{{result['Teacher Filepath']}}">
-                        <img class="card-img-top scale-on-hover"
-                                src="{{result['Teacher Filepath']}}" alt="Card Image">
+                        <a style="display:flex;align-item:center;justify-content:center;" href="{{result['Teacher Filepath']}}">
+                        <img style="max-width:25px ;max-height: 25px;" class="card-img-top scale-on-hover"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png">
                         </a>
                         <div class="card-body">
                             <h6>{{result['Teacher Filename']}}</h6>
@@ -27,17 +27,17 @@
             <div class="heading">
                 <h2>STUDENTS</h2>
             </div>
-            <div class="row">
+            <div class="row" style="align-item:center;justify-content:center;">
                 {% for i in result["Student Grades"] %}
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0">
-                        <a href="{{i['Filepath']}}">
-                        <img class="card-img-top scale-on-hover"
-                                src="{{i['Filepath']}}" alt="Card Image">
+                        <a style="display:flex;align-item:center;justify-content:center;" href="{{i['Filepath']}}">
+                        <img style="max-width:25px ;max-height: 25px;" class="card-img-top scale-on-hover"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="Card Image">
                         </a>
                         <div class="card-body">
                             <h6>{{i["Filename"]}}</h6>
-                            <p class="text-muted card-text">Score: {{i["Score"]}}</p>
+                            <p class="text-muted card-text">{{i["Score"]}}</p>
                         </div>
                     </div>
                 </div>
