@@ -1,0 +1,18 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.live{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}

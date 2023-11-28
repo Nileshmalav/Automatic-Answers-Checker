@@ -11420,7 +11420,7 @@ a.text-dark:hover {
 }
 
 .portfolio-block .heading {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     text-align: center
 }
 
@@ -11432,7 +11432,7 @@ a.text-dark:hover {
 
 .portfolio-block .heading p {
     text-align: center;
-    max-width: 420px;
+    /* max-width: 420px; */
     margin: auto;
     opacity: .7
 }
@@ -11557,8 +11557,8 @@ a.text-dark:hover {
 }
 
 .portfolio-block.call-to-action {
-    padding-top: 60px;
-    padding-bottom: 60px
+    padding-top: 20px;
+    padding-bottom: 20px
 }
 
 .portfolio-block.call-to-action .content {
@@ -11979,14 +11979,14 @@ a.text-dark:hover {
 }
 
 @media (min-width:768px) {
-    .portfolio-block .heading {
+    /* .portfolio-block .heading {
         margin-bottom: 80px
     }
 
     .portfolio-block {
         padding-bottom: 100px;
         padding-top: 100px
-    }
+    } */
 
     .portfolio-block .heading h2 {
         font-size: 2rem
@@ -12010,7 +12010,7 @@ a.text-dark:hover {
 
     .portfolio-laptop-mockup .screen {
         width: 320px;
-        height: 210px
+        /* height: 210px */
     }
 
     .portfolio-laptop-mockup .keyboard {
@@ -12026,7 +12026,7 @@ a.text-dark:hover {
     }
 
     .portfolio-block.project .image {
-        height: 340px
+        /* height: 340px */
     }
 
     .portfolio-block.call-to-action .content {
@@ -12064,7 +12064,7 @@ a.text-dark:hover {
     }
 
     .portfolio-block.project .image {
-        height: 450px
+        /* height: 450px */
     }
 }
 
